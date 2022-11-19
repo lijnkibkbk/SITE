@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f5f7fa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.wrapper{
+    background: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar{
+background: #1e2939;
+width: 370px;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+
+
+
+.my-photo{
+    width: 370px;
+}
+.about-me-container{
+    height: 500px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.contacts-container{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contacts-title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.tel-mail{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6d747f;
+}
+.contacts-title-type{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.city{
+    bottom: 0;
+    padding-left: 90px;
+}
+
+.profession{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info-container{
+    margin-bottom: 65px;
+}
+
+.prof-time{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.golovna_name{
+    font-size: 3rem;
+}
+
+.description2{
+    color: #d65b0a;
+    font-size: 2rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-item {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav-item:hover {
+    color: #d65b0a;
+}
+.sxov-menu {
+    display: none;
+}
+.block {
+    display: block;
+}
+.menu-slide {
+    position: absolute;
+}
+.disp {
+    display: none;
+}
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+@media(max-width:450px){
+
+    .sxov-menu {
+        display: block;
+    }
+
+    .nav,
+    .btn {
+        display: none;
+    }
+
+    .header-line {
+        justify-content: space-between;
+        padding-left: 15px;
+    }
+
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        
+        
+    }
+    body{
+        background: #f5f7fa;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-family: 'Montserrat', sans-serif;
+        height: 850px;
+        width: 400px;
+    }
+    
+    
+    .wrapper{
+        background: #ffffff;
+        display: flex;
+        width: 400px;
+        height: 850px;
+        margin: 0 auto;
+        box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    }
+    .sidebar{
+    background: #1e2939;
+    width: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    
+    
+    
+    
+    .my-photo{
+        width: 145px;
+        padding-left: 5px;
+        padding-top: 0px;
+    }
+    .about-me-container{
+        width: 200px;
+        padding-left: 20px;
+
+
+    }
+    .contacts-container{
+        margin-top: 400px;
+        margin-left: 10px;
+        margin-right: 40px;
+        width: 190px;
+        
+    }
+    
+    .tel-mail{
+        font-size: 0.6rem;
+        font-weight: 400;
+        line-height: 24px;
+        color: #6d747f;
+    }
+    
+    .city{
+        bottom: 0;
+        padding-left: 50px;
+        padding-top: 100px;
+
+    }
+    
+   
+    .profession{
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 24px;
+        margin-bottom: 23px;
+    }
+    
+    .description{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        
+    }
+    
+    .info-container{
+        width: 200px;
+    }
+    
+    
+    
+    
+    .prof-time{
+        color: #a8a8a8;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    
+
+
+    .golovna_name{
+        font-size: 2rem;
+    }
+    
+    .description2{
+        color: #d65b0a;
+        font-size: 1.5rem;
+        
+    }
+}
+
+
+
+
+
+
+
+
